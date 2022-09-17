@@ -23,7 +23,7 @@ var z=document.getElementById("email").value;
 var a=document.getElementById("number").value;
 var b=document.getElementById("password").value;
 
-if(x.length<3||y.length<3||z.length<10||b.length==0||x==null||a.length!=10)
+if(x.length<3||y.length<3||z.length<10||b.length==0||x==null||a.length!=11)
 {
 document.getElementById("che").innerHTML="Invalid Input";
 console.log("k");

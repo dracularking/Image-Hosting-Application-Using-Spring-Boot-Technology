@@ -63,6 +63,7 @@
         <div class="form-group">
 
             <input type="text" id="username" required="required"name="username" class="form-control" th:field="${user.username}" minlength="3" autocomplete="off" />
+            <br>
             <label class="form-label" style="font-weight:normal">Username:   </label>
         </div>
 
@@ -80,7 +81,7 @@
 
         <div class="form-group">
 
-            <input  id="number" type="tel" required="required" class="form-control" name="number" th:field="${user.userProfile.mobileNumber}" pattern="^\d{10}$" autocomplete="off"  />
+            <input  id="number" type="tel" required="required" class="form-control" name="number" th:field="${user.userProfile.mobileNumber}" pattern="^\d{11}$" autocomplete="off"  />
             <label class="form-label" style="font-weight:normal">Mobile No:  </label>
         </div>
         <div class="form-group">
