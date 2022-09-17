@@ -8,7 +8,7 @@
 		<version>2.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.upgrad</groupId>
+	<groupId>com.ross</groupId>
 	<artifactId>TechnicalBlogApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TechnicalBlogApplication</name>
@@ -58,5 +58,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/dracularking/Image-Hosting-Application-Using-Spring-Boot-Technology</url>
+		</repository>
+	</distributionManagement>
 
 </project>
